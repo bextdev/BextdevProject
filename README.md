@@ -6,4 +6,6 @@ WARNING 1: actually my barcode scanner extension will not work i got the barcode
 
 WARNING 2: SleepTime can have an error if set alarm i tested it got error. some of the functions i got is from https://github.com/MahmoudHooda2019/ScreenOffTimeout---MIT_AppInventor/blob/main/src/com/aemo/screenofftime/ScreenOffTime.java Credits To You AEMO
 
+If you want to know how to use BTCS click this website - <a href="https://sites.google.com/view/ai2-brandonang/why-use-camcorderrecordstatussharemessagestatus-work-in-the-middle-of">How to use BTCS Guide</a>
+
 Sorry if im getting out of the topic by crediting in warnings. 
