@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bextdev Extension Ocean</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .extension-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .extension-list li {
+            margin: 10px 0;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 15px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download App Inventor Extensions</h1>
+        <ul class="extension-list" id="extensionList"></ul>
+    </div>
+    <script>
+        const extensions = [
+            "com.ball3d.ball3denglish.aix",
+            "com.bextdev.AI2Fix.aix",
+            "com.bextdev.AcCamera.aix",
+            "com.bextdev.ActivityStarter.aix",
+            "com.bextdev.ButtonBackgroundColor.aix",
+            "com.bextdev.CMD.aix",
+            "com.bextdev.CamcorderRecordStatus.aix",
+            "com.bextdev.Capital.aix",
+            "com.bextdev.CheckAccelerometerEnable.aix",
+            "com.bextdev.CheckSecondsX.aix",
+            "com.bextdev.ClickCount.aix",
+            "com.bextdev.ClickCountTagalog.aix",
+            "com.bextdev.ClickableHorizontalArrangement.aix",
+            "com.bextdev.ComponentText.aix",
+            "com.bextdev.DAI.aix",
+            "com.bextdev.DGame.aix",
+            "com.bextdev.DarkButton.aix",
+            "com.bextdev.DarkImage.aix",
+            "com.bextdev.DeepLaix.aix",
+            "com.bextdev.DestroyApp.aix",
+            "com.bextdev.DeviceName.aix",
+            "com.bextdev.Enable.aix",
+            "com.bextdev.GetAccounts.aix",
+            "com.bextdev.GetEmailAddressList.aix",
+            "com.bextdev.HexBackgroundView.aix",
+            "com.bextdev.Hour23Check.aix",
+            "com.bextdev.Hour23Service.aix",
+            "com.bextdev.HumanFaceCanvas.aix",
+            "com.bextdev.MakePhoneCall.aix",
+            "com.bextdev.MitAppInventor.aix",
+            "com.bextdev.ObjectDrawer.aix",
+            "com.bextdev.PhraseExtractor.aix",
+            "com.bextdev.ReplaceTextWithEmojiLabel.aix",
+            "com.bextdev.SD.aix",
+            "com.bextdev.ShareMessageStatus.aix",
+            "com.bextdev.Sketch.aix",
+            "com.bextdev.TextToOctal.aix",
+            "com.bextdev.TheProcedure.aix",
+            "com.bextdev.Time.aix",
+            "com.bextdev.VideoExist.aix",
+            "com.bextdev.VideoRecorderIntent.aix",
+            "com.bextdev.Volume.aix",
+            "com.bextdev.alphabettextonly.aix",
+            "com.bextdev.animatebutton.aix",
+            "com.bextdev.barcodescanner.aix",
+            "com.bextdev.bight.aix",
+            "com.bextdev.cangoback.aix",
+            "com.bextdev.checkbuttonenable.aix",
+            "com.bextdev.crashes.aix",
+            "com.bextdev.elevatelayout.aix",
+            "com.bextdev.gcash.aix",
+            "com.bextdev.googlefit.aix",
+            "com.bextdev.headsetaudioonly.aix",
+            "com.bextdev.javautils.aix",
+            "com.bextdev.logcatreader.aix",
+            "com.bextdev.mprocedure.aix",
+            "com.bextdev.numberextractor.aix",
+            "com.bextdev.packagenamelist.aix",
+            "com.bextdev.pauseplay.aix",
+            "com.bextdev.pngloader.aix",
+            "com.bextdev.pngloaderuri.aix"
+        ];
+
+        const baseURL = "https://github.com/bextdev797/BextdevProject/raw/main/PERSONAL_EXTENSIONS/";
+
+        const extensionList = document.getElementById('extensionList');
+
+        extensions.forEach(extension => {
+            const listItem = document.createElement('li');
+            const downloadLink = document.createElement('a');
+            downloadLink.href = baseURL + extension;
+            downloadLink.textContent = `Download ${extension}`;
+            downloadLink.className = 'download-btn';
+            listItem.appendChild(downloadLink);
+            extensionList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>
