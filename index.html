@@ -18,16 +18,25 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        h1, h2 {
             text-align: center;
             color: #333;
         }
-        .extension-list {
-            list-style-type: none;
-            padding: 0;
+        .extension-card {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
         }
-        .extension-list li {
-            margin: 10px 0;
+        .extension-name {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .extension-author {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 10px;
         }
         .download-btn {
             display: inline-block;
@@ -46,7 +55,7 @@
 <body>
     <div class="container">
         <h1>Download App Inventor Extensions</h1>
-        <ul class="extension-list" id="extensionList"></ul>
+        <div id="extensionList"></div>
     </div>
     <script>
         const extensions = [
@@ -68,7 +77,7 @@
             "com.bextdev.DGame.aix",
             "com.bextdev.DarkButton.aix",
             "com.bextdev.DarkImage.aix",
-            "com.bextdev.DeepL.aix",
+            "com.bextdev.DeepLaix.aix",
             "com.bextdev.DestroyApp.aix",
             "com.bextdev.DeviceName.aix",
             "com.bextdev.Enable.aix",
@@ -115,16 +124,35 @@
 
         const baseURL = "https://github.com/bextdev797/BextdevProject/raw/main/PERSONAL_EXTENSIONS/";
 
-        const extensionList = document.getElementById('extensionList');
+        function toUpperCamelCase(str) {
+            return str.replace(/(?:^|_)(\w)/g, (_, c) => c ? c.toUpperCase() : '');
+        }
+
+        const extensionListContainer = document.getElementById('extensionList');
 
         extensions.forEach(extension => {
-            const listItem = document.createElement('li');
+            const trimmedExtension = extension.replace(/^(com\.(bextdev|ball3d)\.)|(\.aix)$/g, '');
+            const displayName = toUpperCamelCase(trimmedExtension);
+
+            const extensionCard = document.createElement('div');
+            extensionCard.className = 'extension-card';
+
+            const extensionName = document.createElement('h2');
+            extensionName.className = 'extension-name';
+            extensionName.textContent = displayName;
+            extensionCard.appendChild(extensionName);
+
+            const extensionAuthor = document.createElement('p');
+            extensionAuthor.innerHTML = `Extension Author: <a href="https://community.kodular.io/u/brandon_ang/summary">Bextdev</a>`;
+            extensionCard.appendChild(extensionAuthor);
+
             const downloadLink = document.createElement('a');
             downloadLink.href = baseURL + extension;
-            downloadLink.textContent = `Download ${extension}`;
+            downloadLink.textContent = 'Download Extension';
             downloadLink.className = 'download-btn';
-            listItem.appendChild(downloadLink);
-            extensionList.appendChild(listItem);
+            extensionCard.appendChild(downloadLink);
+
+            extensionListContainer.appendChild(extensionCard);
         });
     </script>
 </body>
