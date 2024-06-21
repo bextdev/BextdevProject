@@ -9,6 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #f4f4f4;
+            transition: background-color 0.3s, color 0.3s;
         }
         .container {
             max-width: 800px;
@@ -50,11 +51,26 @@
         .download-btn:hover {
             background-color: #0056b3;
         }
+        .toggle-theme-btn {
+            float: right;
+            margin-top: -40px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .toggle-theme-btn.light {
+            background-color: #f8f9fa;
+            color: #333;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Download App Inventor Extensions</h1>
+        <button class="toggle-theme-btn" onclick="toggleTheme()">Dark Theme</button>
         <div id="extensionList"></div>
     </div>
     <script>
@@ -154,6 +170,21 @@
 
             extensionListContainer.appendChild(extensionCard);
         });
+
+        function toggleTheme() {
+            const body = document.body;
+            const toggleBtn = document.querySelector('.toggle-theme-btn');
+            
+            body.classList.toggle('dark-theme');
+            
+            if (body.classList.contains('dark-theme')) {
+                toggleBtn.textContent = 'Light Theme';
+                toggleBtn.classList.add('light');
+            } else {
+                toggleBtn.textContent = 'Dark Theme';
+                toggleBtn.classList.remove('light');
+            }
+        }
     </script>
 </body>
 </html>
