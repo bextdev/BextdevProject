@@ -13,3 +13,5 @@ If you want to know how to use BTCS/TVCS click this website - <a href="https://s
 TVCS can only work in companion. 
 
 Sorry if im getting out of the topic by crediting in warnings. 
+
+Extensions will not recieve updates.
