@@ -106,6 +106,7 @@
             "com.bextdev.AI2Fix.aix",
             "com.bextdev.AcCamera.aix",
             "com.bextdev.ActivityStarter.aix",
+            "com.bextdev.AddressDetector.aix",
             "com.bextdev.ButtonBackgroundColor.aix",
             "com.bextdev.CMD.aix",
             "com.bextdev.CamcorderRecordStatus.aix",
@@ -120,7 +121,7 @@
             "com.bextdev.DGame.aix",
             "com.bextdev.DarkButton.aix",
             "com.bextdev.DarkImage.aix",
-            "com.bextdev.DeepLaix.aix",
+            "com.bextdev.DeepL.aix",
             "com.bextdev.DestroyApp.aix",
             "com.bextdev.DeviceName.aix",
             "com.bextdev.Enable.aix",
@@ -162,7 +163,41 @@
             "com.bextdev.packagenamelist.aix",
             "com.bextdev.pauseplay.aix",
             "com.bextdev.pngloader.aix",
-            "com.bextdev.pngloaderuri.aix"
+            "com.bextdev.pngloaderuri.aix",
+            "com.bextdev.readmediaimages.aix",
+            "com.bextdev.simplepopupmenu.aix",
+            "com.bextdev.sleeptime.aix",
+            "com.brandonang.abcdgame.aix",
+            "com.brandonang.alphabetdictionary.aix",
+            "com.brandonang.ball3d.aix",
+            "com.brandonang.bbotide.bbot.aix",
+            "com.brandonang.bcanvas.aix",
+            "com.brandonang.blackraspberrylabel.aix",
+            "com.brandonang.blackraspberryview.aix",
+            "com.brandonang.bluegre.aix",
+            "com.brandonang.boldtextview.aix",
+            "com.brandonang.compoundinterest.aix",
+            "com.brandonang.customorangedlabel.aix",
+            "com.brandonang.doggymaths.aix",
+            "com.brandonang.doggymaths2.aix",
+            "com.brandonang.dynamicfwt.aix",
+            "com.brandonang.extrapeso.aix",
+            "com.brandonang.fiveminutecountdown.aix",
+            "com.brandonang.fonttypeface.aix",
+            "com.brandonang.hermitcrabview.aix",
+            "com.brandonang.largeprogressbar.aix",
+            "com.brandonang.malabonday.aix",
+            "com.brandonang.pdfdownloader.aix",
+            "com.brandonang.peso.aix",
+            "com.brandonang.piso.aix",
+            "com.brandonang.rcg.aix",
+            "com.brandonang.sevenhundreds.aix",
+            "com.brandonang.youtubethumbnail.aix",
+            "ph.bextdev.BTCS.aix",
+            "ph.bextdev.BinaryIPAddress.aix",
+            "ph.bextdev.DrawSquare.aix",
+            "ph.bextdev.ReadMediaVideos.aix",
+            "ph.bextdev.TVCS.aix",
         ];
 
         const baseURL = "https://github.com/bextdev797/BextdevProject/raw/main/PERSONAL_EXTENSIONS/";
@@ -174,7 +209,7 @@
         const extensionListContainer = document.getElementById('extensionList');
 
         extensions.forEach(extension => {
-            const trimmedExtension = extension.replace(/^(com\.(bextdev|ball3d)\.)|(\.aix)$/g, '');
+            const trimmedExtension = extension.replace(/^(com|ph\.(bextdev|ball3d|brandonang)\.)|(\.aix)$/g, '');
             const displayName = toUpperCamelCase(trimmedExtension);
 
             const extensionCard = document.createElement('div');
