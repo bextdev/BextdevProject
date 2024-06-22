@@ -100,6 +100,7 @@
         <button class="toggle-theme-btn" onclick="toggleTheme()">Dark Theme</button>
         <div id="extensionList"></div>
     </div>
+
     <script>
         const extensions = [
             "com.ball3d.ball3denglish.aix",
@@ -209,6 +210,7 @@
         const extensionListContainer = document.getElementById('extensionList');
 
         extensions.forEach(extension => {
+            // Remove prefixes and suffix (.aix)
             const trimmedExtension = extension.replace(/^(com|ph\.(bextdev|ball3d|brandonang)\.)|(\.aix)$/g, '');
             const displayName = toUpperCamelCase(trimmedExtension);
 
@@ -216,7 +218,7 @@
             extensionCard.className = 'extension-card';
 
             const extensionName = document.createElement('h2');
-            extensionName.className = 'extension-name';
+            extensionName.className =             'extension-name';
             extensionName.textContent = displayName;
             extensionCard.appendChild(extensionName);
 
@@ -236,9 +238,9 @@
         function toggleTheme() {
             const body = document.body;
             const toggleBtn = document.querySelector('.toggle-theme-btn');
-            
+
             body.classList.toggle('dark-theme');
-            
+
             if (body.classList.contains('dark-theme')) {
                 toggleBtn.textContent = 'Light Theme';
                 toggleBtn.classList.add('light');
