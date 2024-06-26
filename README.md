@@ -8,6 +8,8 @@ WARNING 2: SleepTime can think that i made a list i made a list of minutes/hours
 
 WARNING 3: Before you use BinaryIPAddress please read <a href="https://developer.android.com/reference/android/net/wifi/WifiInfo#getIpAddress()"><b><i>PLEASE READ FIRST BEFORE USE</i></b></a>
 
+WARNING 4: Don't use AI2Fix Extension Use YourFix Extension instead. 
+
 If you want to know how to use BTCS/TVCS click this website - <a href="https://sites.google.com/view/ai2-brandonang/why-use-camcorderrecordstatussharemessagestatus-work-in-the-middle-of">How to use BTCS Guide</a>
 
 TVCS can only work in companion. 
