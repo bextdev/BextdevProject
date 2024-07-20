@@ -16,4 +16,4 @@ TVCS can only work in companion.
 
 Sorry if im getting out of the topic by crediting in warnings. 
 
-Extensions will not recieve updates.
+All Extensions will not recieve updates.
