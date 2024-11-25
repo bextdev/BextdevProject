@@ -7,3 +7,7 @@ Welcome 😊
 Click Here for new extensions:
 
 https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files
+
+New Extension:
+
+https://sites.google.com/view/ai2extensionbextdevnew/screenname
