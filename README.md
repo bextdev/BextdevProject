@@ -6,10 +6,10 @@ Welcome 😊
 
 Click Here for new extensions:
 
-https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files
+<a href="https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files">New Extensions</a>
 
 New Extension:
 
-https://sites.google.com/view/ai2extensionbextdevnew/Compomatic
+<a href="https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files">MethodListener</a>
 
 <b>All Extensions are outdated except for the newbies: Fluxi & Texty</b>
