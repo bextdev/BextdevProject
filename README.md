@@ -14,4 +14,4 @@ New Extension:
 
 <b>All Extensions are outdated except for the newbies: Fluxi, Texty & Valy</b>
 
-Have fun with my 55 extensions!
+Have fun with my 50+ extensions!
