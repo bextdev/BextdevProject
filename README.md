@@ -12,6 +12,6 @@ New Extension:
 
 <a href="https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files">MethodListener</a>
 
-<b>All Extensions are outdated except for the newbies: Fluxi & Texty</b>
+<b>All Extensions are outdated except for the newbies: Fluxi, Texty & Valy</b>
 
 Have fun with my 55 extensions!
