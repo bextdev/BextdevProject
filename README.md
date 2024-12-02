@@ -10,8 +10,12 @@ Click Here for new extensions:
 
 New Extension:
 
-<a href="https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files">MethodListener</a>
+<a href="https://sites.google.com/view/ai2extensionbextdevnew/mycontext">MyContext</a>
 
 <b>All Extensions are outdated except for the newbies: Fluxi, Texty & Valy</b>
+
+<b>MyContext is an extension generator that downloads/generates an extension based on ServiceName</b>
+
+<b>Don't ask for source code!</b>
 
 Have fun with my 50+ extensions!
