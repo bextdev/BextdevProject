@@ -10,14 +10,10 @@ Click Here for new extensions:
 
 New Extension:
 
-<a href="https://sites.google.com/view/ai2extensionbextdevnew/mycontext">MyContext</a>
+<a href="https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files">ClassMethods</a>
 
 <b>1. All Extensions are outdated except for the newbies: Fluxi, Texty & Valy</b>
 
-<b>2. MyContext is an extension generator that downloads/generates an extension based on ServiceName</b>
-
-<b>3. Before you generate a MyContext extension, scroll down to see what service names "You" should type</b>
-
-<b>4. Don't ask for source code!</b>
+<b>2. Don't ask for source code!</b>
 
 Have fun with my 50+ extensions!
