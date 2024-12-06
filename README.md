@@ -10,7 +10,7 @@ Click Here for new extensions:
 
 New Extension:
 
-<a href="https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files">ClassMethods</a>
+<a href="https://sites.google.com/view/ai2extensionbextdevnew/ai2-new-extensions-free-aia-files">MethodListener</a>
 
 <b>1. All Extensions are outdated except for the newbies: Fluxi, Texty & Valy</b>
 
